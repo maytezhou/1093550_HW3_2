@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Binary Calculator</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+<body> 
+
+    
+      
+   
+        <div class="container-outer">
+      
+          <div class="container-calculator">
+           
+            <div id="ans" maxlength="8" class="inner-container"></div>
+      
+            <div id="btns" class="btns_"  class="inner-container">
+              <div class="upperbtns">
+                <button class="lightc" id="btn0" onclick="getInput('0')">0</button>
+                <button class="lightc" id="btn1" onclick="getInput('1')">1</button>
+                <button class="darkc" id="btnClear">C</button>
+                <button class="darkc" id="btnEql" >=</button>
+              </div>
+              <div class="lowerbtns"  class="inner-container">
+                <button id="btnSum" class="operator" onclick="getInput('+')"> +</button>
+                <button id="btnSub" class="operator" onclick="getInput('-')"> -</button>
+                <button id="btnMul" class="operator" onclick="getInput('*')">*</button>
+                <button id="btnDiv" class="operator" onclick="getInput('/')"> /</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      
+     
+      
+      </html>
+   
+    <script src="index.js"></script>
+</body>
+</html>

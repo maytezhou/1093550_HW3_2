@@ -1,0 +1,89 @@
+.container-calculator {
+    font-family: 'Share Tech Mono';
+    width: 90%;
+  }
+  .container-outer{
+      margin: 2rem;
+  }
+  
+  #ans {   
+   
+    background-color: aliceblue;
+    color:grey;
+    height: 40px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 8px;
+    margin:2px;
+    text-align: right;
+    border: groove aliceblue;
+  }
+  
+  
+  .btns_ {
+    font-family: 'Share Tech Mono';
+  }
+  
+  
+  #btns {
+   
+    width: 90%;
+    height: 36px;
+    font-size: 18px;
+  }
+  
+  .upperbtns {
+    display: flex;
+   
+  }
+  .lowerbtns {
+    display: flex;
+    
+  }
+  
+  .lightc {
+
+    display: inline;
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    background-color: #f4511e;
+    border: none;
+    color: white;   
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    /*background-color: #fa3f06;*/
+  }
+  
+  .darkc {
+    background-color: #f14612;
+    color: white;
+    display: inline;
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    border: none;
+    margin: 4px 2px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+ 
+
+  }
+  
+ 
+  
+  .operator {
+    background-color: aliceblue;
+    color:grey;
+    height: 36px;
+    width: 25%;
+    font-size: 18px;
+    border-radius: 8px;
+    border: groove aliceblue;
+  }
