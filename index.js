@@ -13,7 +13,7 @@ function calculating() { // calculates the binary operation and prints the resul
   if (screenResult.indexOf("+") != -1) {
     var inputNum = screenResult.split("+");
     console.log(inputNum);
-    var binaryNum1 = parseInt(inputNum[0], 2);// converts a string into an integer,using binary system 2 convert it to decimal number 
+    var binaryNum1 = parseInt(inputNum[0], 2);// converts a string into an integer,from binary  convert it to decimal number 
     var binaryNum2 = parseInt(inputNum[1], 2);
     var sum = binaryNum1 + binaryNum1;
     var ans = sum.toString(2);// converts a number  in decimal to a string binary number
@@ -43,7 +43,7 @@ function calculating() { // calculates the binary operation and prints the resul
   document.getElementById("ans").innerHTML = screenResult; // print it in the screen 
 }
 
-function clear() { // clears the result variable  and the screen
+function clear() { // clears the result variable  and updates  the screen
   screenResult = "";
   document.getElementById("ans").innerHTML = screenResult;
 };
