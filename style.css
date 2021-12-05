@@ -1,4 +1,6 @@
 .container-calculator {
+  margin-top: 8%;
+  margin-left: 8%;
     font-family: 'Share Tech Mono';
     width: 90%;
   }
@@ -10,9 +12,9 @@
    
     background-color: aliceblue;
     color:grey;
-    height: 40px;
+    height: 180px;
     width: 90%;
-    font-size: 20px;
+    font-size: 70px;
     border-radius: 8px;
     margin:2px;
     text-align: right;
@@ -28,8 +30,7 @@
   #btns {
    
     width: 90%;
-    height: 36px;
-    font-size: 18px;
+
   }
   
   .upperbtns {
@@ -45,7 +46,7 @@
 
     display: inline;
     width: 25%;
-    height: 36px;
+    height: 85px;
     font-size: 18px;
     background-color: #f4511e;
     border: none;
@@ -64,7 +65,7 @@
     color: white;
     display: inline;
     width: 25%;
-    height: 36px;
+    height: 85px;
     font-size: 18px;
     border: none;
     margin: 4px 2px;
@@ -81,9 +82,31 @@
   .operator {
     background-color: aliceblue;
     color:grey;
-    height: 36px;
+    height: 85px;
     width: 25%;
     font-size: 18px;
     border-radius: 8px;
     border: groove aliceblue;
   }
+  
+
+
+  @media only screen and (min-width:800px)  {
+    .container-outer{
+      margin-top: 5%;
+     
+       
+     }
+  }
+  @media only screen and (max-width:399px){
+    .container-outer{
+     margin-top: 45%;
+     margin-left: 18%;
+
+      
+      
+    }
+  }
+
+  
+ 
